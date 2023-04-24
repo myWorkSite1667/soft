@@ -1,0 +1,79 @@
+/* table */
+    
+*{
+    margin:0;
+    padding: 0;
+}
+li p:nth-child(2n+1){
+    background-color: aqua;
+}
+.color:nth-child(2n+2){
+    color: orangered;
+    background-color: darkgray;
+
+
+}
+table{
+    border-collapse:collapse;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+td{
+    border: 2px solid skyblue;
+    padding: 2px 5px;
+}
+th{
+    border:1px solid black;
+    padding: 2px 5px;
+}
+/* table */
+
+/* Home-start */
+.welcome{
+    margin:10px 20px
+}
+.color{
+    color: aqua;
+}
+nav > ul{
+    display:flex;
+
+    
+    
+}
+nav  li{
+    list-style: none;
+    margin:10px 20px;
+    padding: 5px;
+    
+    
+}
+nav li:hover{
+    background-color: lightgray;
+}
+
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.dropdown{
+    position: absolute;
+    top: 37px;
+    display: none;
+    background-color: plum;
+    padding: 0 ;
+    
+}
+.dropdown li{
+    padding: 0 5px;
+    margin: 0;
+}
+
+nav > ul > li:hover >ul{
+    display: block;
+
+}
+/* Home-end */
